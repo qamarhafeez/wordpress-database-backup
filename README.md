@@ -1,6 +1,8 @@
-# wordpress-database-backup
+# Wordpress Database Backup
 
 A PHP script to get backup of wordpress database. This script is not a wordpress plugin. It is standalone script. We use this script to create and download backup of the wordpress database.
+
+No Need to add username, hostname, database name, password. All will be read from wp-config.php automatically.
 
 To use this software, upload script to the wordpress root directory where wordrpess is installed and call the url in your browser. The script will create backup.sql on the server. You can download the file as a backup.
 
